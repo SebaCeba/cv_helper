@@ -1,0 +1,93 @@
+{
+  "expertise_areas": [
+    {
+      "category": "Core Competencies",
+      "skills": [
+        "Liderazgo de plataformas financieras y sistemas core",
+        "Arquitectura de soluciones e integración de sistemas",
+        "Transformación digital y modernización tecnológica",
+        "Gobierno tecnológico y gestión de proveedores",
+        "Gestión de stakeholders y alineamiento negocio–tecnología",
+        "Adopción tecnológica y gestión del cambio"
+      ]
+    }
+  ],
+  "technologies": [
+    {
+      "category": "Plataformas Financieras",
+      "items": [
+        {
+          "name": "SAP BI",
+          "proficiency": "Avanzado"
+        },
+        {
+          "name": "OneStream",
+          "proficiency": "Avanzado"
+        },
+        {
+          "name": "Hyperion",
+          "proficiency": "Avanzado"
+        },
+        {
+          "name": "Essbase",
+          "proficiency": "Avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Data & Analytics",
+      "items": [
+        {
+          "name": "Google BigQuery",
+          "proficiency": "Intermedio"
+        },
+        {
+          "name": "Power BI",
+          "proficiency": "Avanzado"
+        },
+        {
+          "name": "Excel Avanzado",
+          "proficiency": "Avanzado"
+        }
+      ]
+    },
+    {
+      "category": "Automatización & IA",
+      "items": [
+        {
+          "name": "Power Automate",
+          "proficiency": "Intermedio"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "proficiency": "Intermedio"
+        },
+        {
+          "name": "GenAI aplicada",
+          "proficiency": "Intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Ecosistemas",
+      "items": [
+        {
+          "name": "Microsoft 365",
+          "proficiency": "Avanzado"
+        },
+        {
+          "name": "SAP",
+          "proficiency": "Avanzado"
+        }
+      ]
+    }
+  ],
+  "soft_skills": [
+    "Liderazgo de equipos multidisciplinarios",
+    "Comunicación ejecutiva",
+    "Gestión de stakeholders",
+    "Visión estratégica negocio-tecnología",
+    "Adaptabilidad y aprendizaje continuo",
+    "Resolución de problemas complejos"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "personal": {
+    "full_name": "Sebastián Ignacio Ceballos Tapia",
+    "title": "Head de Plataformas Financieras & Transformación Digital",
+    "location": "Santiago, Chile",
+    "email": "sceballost@gmail.com",
+    "linkedin": "https://linkedin.com/in/sebaceba/"
+  },
+  "profile_summary": "Líder de Transformación Digital con más de 8 años de experiencia en la evolución y gobierno de plataformas financieras y sistemas críticos de negocio en entornos corporativos complejos. Especialista en arquitectura de soluciones, integración de sistemas y modernización tecnológica, actuando como puente entre negocio, tecnología y proveedores estratégicos. Experiencia liderando iniciativas de alto impacto con foco en estabilidad operativa, escalabilidad, adopción tecnológica y generación de valor a través de plataformas core y comerciales.",
+  "education": [
+    {
+      "degree": "Magíster en Administración Financiera",
+      "institution": "EADA Business School",
+      "period": "2021–2022"
+    },
+    {
+      "degree": "Ingeniería Civil Industrial",
+      "institution": "Universidad Adolfo Ibáñez",
+      "period": "2010–2015"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Accountability Builder™",
+      "issuer": "Bliss Lab®"
+    },
+    {
+      "name": "Análisis Financiero Data-Driven",
+      "issuer": "University of Chicago"
+    },
+    {
+      "name": "Power BI",
+      "issuer": "Microsoft"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "level": "Avanzado"
+    }
+  ],
+  "differentials": [
+    "Capacidad de traducir estrategia de negocio en decisiones tecnológicas concretas",
+    "Experiencia liderando plataformas en organizaciones de gran escala y alta complejidad",
+    "Visión híbrida negocio–tecnología, con foco en impacto real y sostenibilidad operativa",
+    "Trayectoria combinada consultoría + corporativo, ideal para roles de liderazgo tecnológico"
+  ]
+}

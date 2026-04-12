@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sebastián Ceballos - Corporativo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            background: white;
+            color: #2c3e50;
+            line-height: 1.45;
+            font-size: 9.5pt;
+        }
+        
+        .container {
+            max-width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 65mm 145mm;
+            overflow: hidden;
+        }
+        
+        /* Columna izquierda */
+        .sidebar {
+            background: linear-gradient(180deg, #1a4d7a 0%, #2c5f8d 100%);
+            color: white;
+            padding: 12mm 7mm;
+        }
+        
+        .sidebar h2 {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 10pt;
+            font-weight: 700;
+            margin-bottom: 5pt;
+            padding-bottom: 3pt;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+        }
+        
+        .sidebar-section {
+            margin-bottom: 10pt;
+        }
+        
+        .sidebar-section ul {
+            list-style: none;
+            margin-top: 4pt;
+        }
+        
+        .sidebar-section li {
+            margin-bottom: 2pt;
+            padding-left: 10pt;
+            position: relative;
+            font-size: 8.5pt;
+            line-height: 1.4;
+        }
+        
+        .sidebar-section li:before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #6ba5d6;
+        }
+        
+        .contact-item {
+            margin-bottom: 7pt;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+        
+        .contact-icon {
+            color: #6ba5d6;
+            margin-right: 5pt;
+            font-weight: 600;
+        }
+        
+        .contact-item a {
+            color: white;
+            text-decoration: none;
+            word-break: break-word;
+        }
+        
+        /* Columna principal */
+        .main-content {
+            padding: 12mm 10mm;
+            background: white;
+        }
+        
+        .header {
+            margin-bottom: 8pt;
+            border-bottom: 2.5pt solid #1a4d7a;
+            padding-bottom: 6pt;
+        }
+        
+        .header h1 {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 18pt;
+            font-weight: 700;
+            color: #1a4d7a;
+            margin-bottom: 3pt;
+            letter-spacing: -0.5pt;
+        }
+        
+        .header .subtitle {
+            font-size: 10pt;
+            color: #34495e;
+            font-weight: 600;
+            font-style: italic;
+        }
+        
+        .section {
+            margin-bottom: 8pt;
+        }
+        
+        .section-title {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 10.5pt;
+            font-weight: 700;
+            color: #1a4d7a;
+            margin-bottom: 5pt;
+            text-transform: uppercase;
+            letter-spacing: 0.8pt;
+            border-bottom: 1.5pt solid #6ba5d6;
+            padding-bottom: 2pt;
+        }
+        
+        .profile-text {
+            text-align: justify;
+            line-height: 1.4;
+            font-size: 8.5pt;
+            color: #2c3e50;
+        }
+        
+        .job {
+            margin-bottom: 7pt;
+            page-break-inside: avoid;
+        }
+        
+        .job-header {
+            margin-bottom: 3pt;
+        }
+        
+        .company {
+            font-weight: 700;
+            font-size: 9.5pt;
+            color: #1a4d7a;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            font-size: 9pt;
+            color: #2c3e50;
+            margin-top: 1pt;
+        }
+        
+        .period {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 8pt;
+            margin-top: 1pt;
+        }
+        
+        .job ul {
+            margin-top: 3pt;
+            padding-left: 14pt;
+            list-style: none;
+        }
+        
+        .job li {
+            margin-bottom: 1.5pt;
+            position: relative;
+            padding-left: 10pt;
+            line-height: 1.35;
+            font-size: 8.5pt;
+        }
+        
+        .job li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #6ba5d6;
+            font-weight: bold;
+        }
+        
+        .education-item {
+            margin-bottom: 6pt;
+        }
+        
+        .degree {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 9.5pt;
+        }
+        
+        .institution {
+            color: #7f8c8d;
+            font-size: 9pt;
+            font-style: italic;
+        }
+        
+        .differentials {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4pt 8pt;
+        }
+        
+        .differentials li {
+            margin-bottom: 3pt;
+            position: relative;
+            padding-left: 10pt;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+        
+        .differentials li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #1a4d7a;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Columna Izquierda -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h2>Contacto</h2>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>Santiago, Chile
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span><a href="mailto:sceballost@gmail.com">sceballost@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🔗</span><a href="https://linkedin.com/in/sebaceba/" target="_blank">linkedin.com/in/sebaceba</a>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2>Expertise</h2>
+                <ul>
+                    <li>Plataformas financieras y sistemas core</li>
+                    <li>Arquitectura e integración de sistemas</li>
+                    <li>Transformación digital</li>
+                    <li>Gobierno tecnológico</li>
+                    <li>Gestión de stakeholders</li>
+                    <li>Adopción tecnológica</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2>Tecnologías</h2>
+                <ul>
+                    <li>SAP BI, OneStream</li>
+                    <li>Hyperion, Essbase</li>
+                    <li>Google BigQuery</li>
+                    <li>Power BI</li>
+                    <li>Power Automate</li>
+                    <li>Microsoft Copilot</li>
+                    <li>GenAI aplicada</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2>Formación</h2>
+                <div class="education-item">
+                    <div class="degree" style="color: white; font-weight: 600;">Magíster en Administración Financiera</div>
+                    <div class="institution" style="color: rgba(255,255,255,0.85);">EADA Business School<br>2021–2022</div>
+                </div>
+                <div class="education-item">
+                    <div class="degree" style="color: white; font-weight: 600;">Ingeniería Civil Industrial</div>
+                    <div class="institution" style="color: rgba(255,255,255,0.85);">Universidad Adolfo Ibáñez<br>2010–2015</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2>Certificaciones</h2>
+                <ul>
+                    <li>Accountability Builder™ (Bliss Lab®)</li>
+                    <li>Análisis Financiero Data-Driven (UChicago)</li>
+                    <li>Power BI (Microsoft)</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section">
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Español: Nativo</li>
+                    <li>Inglés: Avanzado</li>
+                </ul>
+            </div>
+        </aside>
+        
+        <!-- Columna Principal -->
+        <main class="main-content">
+            <header class="header">
+                <h1>Sebastián Ignacio Ceballos Tapia</h1>
+                <div class="subtitle">Head de Plataformas Financieras & Transformación Digital</div>
+            </header>
+            
+            <section class="section">
+                <h2 class="section-title">Perfil Ejecutivo</h2>
+                <p class="profile-text">
+                    Líder de Transformación Digital con más de 8 años de experiencia en la evolución y gobierno de <strong>plataformas financieras y sistemas críticos de negocio</strong> en entornos corporativos complejos. Especialista en <strong>arquitectura de soluciones, integración de sistemas y modernización tecnológica</strong>, actuando como puente entre negocio, tecnología y proveedores estratégicos.
+                </p>
+            </section>
+            
+            <section class="section">
+                <h2 class="section-title">Experiencia Profesional</h2>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Walmart Chile</div>
+                        <div class="job-title">Líder de Transformación Digital & Plataformas Financieras</div>
+                        <div class="period">2022 – Actualidad</div>
+                    </div>
+                    <ul>
+                        <li>Liderazgo de la evolución de plataformas financieras críticas para planificación, reporting y consolidación.</li>
+                        <li>Definición y ejecución del roadmap tecnológico, alineando prioridades de negocio, tecnología y proveedores.</li>
+                        <li>Gobierno de arquitecturas de integración entre sistemas SAP, plataformas de datos y soluciones enterprise.</li>
+                        <li>Dirección de procesos de selección e implementación de plataformas core (OneStream), incluyendo hypercare.</li>
+                        <li>Impulso de capacidades de automatización e IA aplicada para mejorar eficiencia analítica.</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Walmart Chile</div>
+                        <div class="job-title">Jefe de Proyectos – Planificación Financiera & Plataformas</div>
+                        <div class="period">2019 – 2022</div>
+                    </div>
+                    <ul>
+                        <li>Gestión de plataformas de planificación financiera y reporting alineadas a procesos core.</li>
+                        <li>Coordinación del backlog evolutivo y soporte de plataformas enterprise (Hyperion/Essbase).</li>
+                        <li>Liderazgo de iniciativas de modernización de reporting mediante Power BI.</li>
+                        <li>Rediseño de estructuras de P&L corporativo, integrando sistemas financieros regionales.</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <div class="company">Everis Chile (NTT Data)</div>
+                        <div class="job-title">Consultor de Negocio & Tecnología</div>
+                        <div class="period">2015 – 2019</div>
+                    </div>
+                    <ul>
+                        <li>Proyectos de transformación digital, gobierno del dato e integración de sistemas en banca y telecomunicaciones.</li>
+                        <li>Definición de modelos de gobierno de datos y control financiero.</li>
+                        <li>Automatización y optimización de procesos críticos de negocio.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h2 class="section-title">Diferenciales Profesionales</h2>
+                <ul class="differentials">
+                    <li>Traducir estrategia en decisiones tecnológicas concretas</li>
+                    <li>Experiencia en organizaciones de gran escala</li>
+                    <li>Visión híbrida negocio–tecnología</li>
+                    <li>Trayectoria consultoría + corporativo</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

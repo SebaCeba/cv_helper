@@ -1,0 +1,60 @@
+{
+  "achievements": [
+    {
+      "id": "achievement_001",
+      "category": "Leadership",
+      "title": "Liderazgo de transformación de plataformas críticas",
+      "description": "Dirección exitosa de la evolución de plataformas financieras críticas con impacto transversal en toda la organización",
+      "impact": "Alto impacto en áreas comerciales y corporativas",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_002",
+      "category": "Implementation",
+      "title": "Implementación de OneStream",
+      "description": "Liderazgo completo del proceso de selección, licitación, implementación y estabilización de plataforma OneStream",
+      "impact": "Nueva plataforma core de consolidación financiera",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_003",
+      "category": "Innovation",
+      "title": "Automatización e IA aplicada",
+      "description": "Implementación de capacidades de automatización e inteligencia artificial en procesos financieros",
+      "impact": "Mejora significativa en eficiencia analítica y reducción de tiempos de cierre",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_004",
+      "category": "Modernization",
+      "title": "Modernización de reporting con Power BI",
+      "description": "Transformación completa de capacidades de reporting y analítica",
+      "impact": "Mejora en tiempos de análisis y calidad de información",
+      "role_id": "role_002"
+    },
+    {
+      "id": "achievement_005",
+      "category": "Standardization",
+      "title": "Rediseño de estructuras P&L corporativo",
+      "description": "Estandarización de estructuras financieras integrando sistemas regionales",
+      "impact": "Mejora en procesos de consolidación y reporting corporativo",
+      "role_id": "role_002"
+    },
+    {
+      "id": "achievement_006",
+      "category": "Governance",
+      "title": "Gobierno de arquitecturas de integración",
+      "description": "Establecimiento de gobierno entre SAP, plataformas de datos y soluciones enterprise",
+      "impact": "Estabilidad operativa y continuidad de servicios críticos",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_007",
+      "category": "Change Management",
+      "title": "Adopción tecnológica organizacional",
+      "description": "Liderazgo de iniciativas de gestión del cambio para adopción efectiva de plataformas",
+      "impact": "Uso efectivo de plataformas por usuarios de negocio",
+      "role_id": "role_001"
+    }
+  ]
+}

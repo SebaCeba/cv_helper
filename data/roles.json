@@ -1,0 +1,53 @@
+{
+  "roles": [
+    {
+      "id": "role_001",
+      "company": "Walmart Chile",
+      "position": "Líder de Transformación Digital & Plataformas Financieras",
+      "start_date": "2022",
+      "end_date": "Actualidad",
+      "is_current": true,
+      "responsibilities": [
+        "Liderazgo de la evolución de plataformas financieras críticas para planificación, reporting y consolidación, con impacto transversal en áreas comerciales y corporativas",
+        "Definición y ejecución del roadmap tecnológico de plataformas financieras, alineando prioridades de negocio, tecnología y proveedores",
+        "Gobierno de arquitecturas de integración entre sistemas SAP, plataformas de datos y soluciones enterprise de planificación",
+        "Coordinación de múltiples stakeholders internos y proveedores tecnológicos, asegurando entrega, estabilidad y continuidad operativa",
+        "Dirección de procesos de selección e implementación de plataformas core (OneStream), incluyendo licitación, hypercare y estabilización post-implementación",
+        "Impulso de capacidades de automatización e inteligencia artificial aplicada para mejorar eficiencia analítica y tiempos de cierre financiero",
+        "Liderazgo de iniciativas de adopción tecnológica y gestión del cambio, asegurando uso efectivo de plataformas por parte de usuarios de negocio"
+      ],
+      "technologies": ["SAP", "OneStream", "BigQuery", "Power BI", "Power Automate", "GenAI"]
+    },
+    {
+      "id": "role_002",
+      "company": "Walmart Chile",
+      "position": "Jefe de Proyectos – Planificación Financiera & Plataformas",
+      "start_date": "2019",
+      "end_date": "2022",
+      "is_current": false,
+      "responsibilities": [
+        "Gestión de plataformas de planificación financiera y reporting, alineadas a procesos core del negocio",
+        "Coordinación del backlog evolutivo y de soporte de plataformas enterprise (Hyperion / Essbase)",
+        "Liderazgo de iniciativas de modernización de reporting y analítica mediante Power BI",
+        "Rediseño y estandarización de estructuras de P&L corporativo, integrando sistemas financieros regionales",
+        "Interacción con equipos regionales y corporativos, reportando resultados a instancias internacionales"
+      ],
+      "technologies": ["Hyperion", "Essbase", "Power BI", "SAP"]
+    },
+    {
+      "id": "role_003",
+      "company": "Everis Chile (NTT Data)",
+      "position": "Consultor de Negocio & Tecnología",
+      "start_date": "2015",
+      "end_date": "2019",
+      "is_current": false,
+      "responsibilities": [
+        "Participación en proyectos de transformación digital, gobierno del dato e integración de sistemas en banca, salud y telecomunicaciones",
+        "Definición de modelos de gobierno de datos y control financiero",
+        "Automatización y optimización de procesos críticos de negocio junto a áreas técnicas y funcionales",
+        "Experiencia en contextos de arquitectura empresarial, control y auditoría de procesos"
+      ],
+      "technologies": []
+    }
+  ]
+}

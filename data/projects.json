@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "id": "project_001",
+      "name": "Implementación OneStream",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Selección, licitación e implementación de plataforma OneStream como sistema core de consolidación financiera",
+      "achievements": [
+        "Dirección completa del proceso de selección e implementación",
+        "Gestión de hypercare y estabilización post-implementación",
+        "Coordinación de stakeholders internos y proveedores"
+      ],
+      "technologies": ["OneStream", "SAP"],
+      "year": "2022-2024"
+    },
+    {
+      "id": "project_002",
+      "name": "Modernización de Reporting con Power BI",
+      "role_id": "role_002",
+      "company": "Walmart Chile",
+      "description": "Transformación de capacidades de reporting y analítica mediante implementación de Power BI",
+      "achievements": [
+        "Liderazgo de iniciativas de modernización de reporting",
+        "Mejora de eficiencia analítica",
+        "Adopción organizacional de nuevas herramientas"
+      ],
+      "technologies": ["Power BI", "BigQuery"],
+      "year": "2019-2022"
+    },
+    {
+      "id": "project_003",
+      "name": "Rediseño de P&L Corporativo",
+      "role_id": "role_002",
+      "company": "Walmart Chile",
+      "description": "Rediseño y estandarización de estructuras de P&L corporativo con integración de sistemas financieros regionales",
+      "achievements": [
+        "Estandarización de estructuras financieras",
+        "Integración de sistemas regionales",
+        "Mejora en procesos de consolidación"
+      ],
+      "technologies": ["SAP", "Hyperion", "Essbase"],
+      "year": "2020-2021"
+    },
+    {
+      "id": "project_004",
+      "name": "Automatización e IA Aplicada",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Implementación de capacidades de automatización e inteligencia artificial para procesos financieros",
+      "achievements": [
+        "Reducción de tiempos de cierre financiero",
+        "Mejora de eficiencia analítica",
+        "Implementación de GenAI en procesos clave"
+      ],
+      "technologies": ["Power Automate", "Microsoft Copilot", "GenAI"],
+      "year": "2023-2024"
+    },
+    {
+      "id": "project_005",
+      "name": "Gobierno de Arquitecturas de Integración",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Establecimiento de gobierno de arquitecturas de integración entre sistemas SAP, plataformas de datos y soluciones enterprise",
+      "achievements": [
+        "Definición de estándares de integración",
+        "Coordinación entre múltiples plataformas",
+        "Aseguramiento de estabilidad operativa"
+      ],
+      "technologies": ["SAP", "BigQuery", "OneStream"],
+      "year": "2022-2024"
+    }
+  ]
+}
