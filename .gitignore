@@ -43,8 +43,14 @@ Thumbs.db
 # Project specific
 output/
 generated_cvs/
-*.pdf
 temp/
+
+# Outputs directory - keep only .gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# PDFs
+*.pdf
 
 # Keep data directory structure but ignore sensitive data
 # data/personal_override.json
