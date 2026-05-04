@@ -78,6 +78,27 @@
         {
           "name": "SAP",
           "proficiency": "Avanzado"
+        },
+        {
+          "name": "SharePoint",
+          "proficiency": "Intermedio"
+        },
+        {
+          "name": "Confluence",
+          "proficiency": "Intermedio"
+        }
+      ]
+    },
+    {
+      "category": "Machine Learning & Modelos",
+      "items": [
+        {
+          "name": "SML (Sensible Machine Learning)",
+          "proficiency": "Intermedio"
+        },
+        {
+          "name": "WML (Walmart Machine Learning)",
+          "proficiency": "Básico"
         }
       ]
     }

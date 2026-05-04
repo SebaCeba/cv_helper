@@ -13,10 +13,12 @@
         "Gobierno de arquitecturas de integración entre sistemas SAP, plataformas de datos y soluciones enterprise de planificación",
         "Coordinación de múltiples stakeholders internos y proveedores tecnológicos, asegurando entrega, estabilidad y continuidad operativa",
         "Dirección de procesos de selección e implementación de plataformas core (OneStream), incluyendo licitación, hypercare y estabilización post-implementación",
-        "Impulso de capacidades de automatización e inteligencia artificial aplicada para mejorar eficiencia analítica y tiempos de cierre financiero",
-        "Liderazgo de iniciativas de adopción tecnológica y gestión del cambio, asegurando uso efectivo de plataformas por parte de usuarios de negocio"
+        "Implementación de modelos predictivos con machine learning en procesos de negocio, coordinando el trabajo entre equipos técnicos y de negocio",
+        "Liderazgo de iniciativas de adopción tecnológica y gestión del cambio, asegurando uso efectivo de plataformas por parte de usuarios de negocio",
+        "Participación activa en gobierno de datos, definición de KPIs y alineación Finance–Data",
+        "Coordinación de espacios de trabajo recurrentes (daily, weekly, touchpoints) para seguimiento de avances técnicos y de negocio"
       ],
-      "technologies": ["SAP", "OneStream", "BigQuery", "Power BI", "Power Automate", "GenAI"]
+      "technologies": ["SAP", "OneStream", "BigQuery", "Power BI", "Power Automate", "GenAI", "SML"]
     },
     {
       "id": "role_002",
@@ -30,7 +32,8 @@
         "Coordinación del backlog evolutivo y de soporte de plataformas enterprise (Hyperion / Essbase)",
         "Liderazgo de iniciativas de modernización de reporting y analítica mediante Power BI",
         "Rediseño y estandarización de estructuras de P&L corporativo, integrando sistemas financieros regionales",
-        "Interacción con equipos regionales y corporativos, reportando resultados a instancias internacionales"
+        "Interacción con equipos regionales y corporativos, reportando resultados a instancias internacionales",
+        "Coordinación de iniciativas de transición tecnológica, incluyendo migraciones de servidores asociadas a plataformas financieras críticas, resguardando continuidad operativa"
       ],
       "technologies": ["Hyperion", "Essbase", "Power BI", "SAP"]
     },

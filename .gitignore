@@ -45,9 +45,13 @@ output/
 generated_cvs/
 temp/
 
-# Outputs directory - keep only .gitkeep
+# Outputs directory - keep structure and examples, ignore future generations
 outputs/*
 !outputs/.gitkeep
+!outputs/README.md
+!outputs/CV_*.md
+!outputs/CV_*.html
+!outputs/archive/
 
 # PDFs
 *.pdf

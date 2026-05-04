@@ -19,57 +19,52 @@ CV Helper es un sistema de gestión de información profesional que permite mant
 ## 📁 Estructura del Proyecto
 
 ```
-.
-├── data/                          # Datos estructurados del CV
+cv_helper/
+├── data/                          # 🗄️ Fuente única de verdad
 │   ├── profile_master.json        # Información personal, formación, idiomas
 │   ├── roles.json                 # Experiencia profesional
 │   ├── projects.json              # Proyectos destacados
 │   ├── achievements.json          # Logros profesionales
-│   └── skills.json                # Habilidades técnicas y blandas
-├── CV_Ejecutivo_Corporativo.html  # Template CV corporativo
-├── CV_Ejecutivo_Minimalista.html  # Template CV minimalista
-├── CV_Sebastian_Ceballos_Head_Plataformas.md  # CV formato Markdown
+│   ├── skills.json                # Habilidades técnicas y blandas
+│   └── source_notes.md            # Material fuente sin procesar
+│
+├── prompts/                       # 📝 Instrucciones para el sistema
+│   ├── setup_data.md              # Cómo configurar datos
+│   └── generate_cv.md             # Cómo generar CVs
+│
+├── templates/                     # 🎨 Plantillas base
+│   └── cv_template.md             # Template Handlebars
+│
+├── outputs/                       # 📄 CVs generados
+│   ├── README.md                  # Documentación de outputs
+│   ├── CV_Head_Plataformas.md
+│   ├── CV_Ejecutivo_Corporativo.html
+│   ├── CV_Ejecutivo_Minimalista.html
+│   └── archive/                   # Artefactos históricos
+│
+├── .gitignore                     # Configuración Git
+├── LICENSE                        # Licencia MIT
+├── README.md                      # Este archivo
+├── INSTRUCCIONES_GIT.md           # Guía Git
 └── validate_json.py               # Script de validación
 ```
 
-## 📊 Descripción de Archivos JSON
+## 📊 Organización de Datos
 
-### `profile_master.json`
-Información base del perfil:
-- **personal**: Datos de contacto (nombre, título, ubicación, email, LinkedIn)
-- **profile_summary**: Resumen ejecutivo profesional
-- **education**: Formación académica (2 títulos)
-- **certifications**: Certificaciones profesionales (3 certificaciones)
-- **languages**: Idiomas (Español, Inglés)
-- **differentials**: 4 diferenciales profesionales clave
+### `/data` - Fuente Única de Verdad
 
-### `roles.json`
-Experiencia laboral organizada por roles:
-- **3 roles profesionales** desde 2015 a la actualidad
-- Por cada rol: empresa, cargo, fechas, responsabilidades, tecnologías
-- Roles identificados: `role_001`, `role_002`, `role_003`
+Toda la información profesional está estructurada en archivos JSON:
 
-### `projects.json`
-Proyectos específicos de alto impacto:
-- **5 proyectos destacados** vinculados a roles
-- Por proyecto: nombre, descripción, logros, tecnologías, año
-- Proyectos: OneStream, Power BI, P&L, IA/Automatización, Arquitecturas
+| Archivo | Contenido |
+|---------|-----------|
+| `profile_master.json` | Información personal, formación académica, certificaciones, idiomas, diferenciales |
+| `roles.json` | Experiencia laboral detallada con responsabilidades y tecnologías |
+| `projects.json` | Proyectos destacados vinculados a roles con logros específicos |
+| `achievements.json` | Logros profesionales categorizados por tipo de impacto |
+| `skills.json` | Áreas de expertise, tecnologías con niveles de proficiencia, soft skills |
+| `source_notes.md` | Material fuente sin procesar (referencia temporal) |
 
-### `achievements.json`
-Logros profesionales categorizados:
-- **7 logros** clasificados por tipo
-- Categorías: Leadership, Implementation, Innovation, Modernization, Standardization, Governance, Change Management
-- Cada logro vinculado a un `role_id`
-
-### `skills.json`
-Competencias técnicas y blandas:
-- **expertise_areas**: 6 áreas de expertise core
-- **technologies**: 4 categorías tecnológicas con niveles de proficiencia
-  - Plataformas Financieras (4 items)
-  - Data & Analytics (3 items)
-  - Automatización & IA (3 items)
-  - Ecosistemas (2 items)
-- **soft_skills**: 6 habilidades blandas clave
+**Principio clave**: Cada dato vive en **un solo lugar**. Los CVs generados son outputs derivados de `/data`.
 
 ## ✅ Validación
 
@@ -88,22 +83,27 @@ Estado actual: **✓ TODOS LOS ARCHIVOS JSON SON VÁLIDOS**
 4. **Estructura modular**: Fácil actualización y mantenimiento
 5. **JSON válido**: Verificado programáticamente
 
-## � Inicio Rápido
+## 🚀 Inicio Rápido
 
-### Validar archivos JSON
+### 1. Validar datos estructurados
 
 ```powershell
 python validate_json.py
 ```
 
-### Estructura de datos
+Esto verifica que todos los archivos JSON en `/data` sean válidos.
 
-Toda la información profesional está organizada en `/data`:
-- **profile_master.json** → Información personal y formación
-- **roles.json** → Experiencia laboral detallada  
-- **projects.json** → Proyectos destacados
-- **achievements.json** → Logros profesionales
-- **skills.json** → Competencias técnicas y blandas
+### 2. Generar un CV
+
+1. Revisa las instrucciones en `/prompts/generate_cv.md`
+2. Usa los templates de `/templates` como base
+3. Los outputs se guardan en `/outputs`
+
+### 3. Actualizar información
+
+1. Edita los archivos JSON correspondientes en `/data`
+2. Valida con `python validate_json.py`
+3. Regenera los CVs según necesidad
 
 ## 🛠️ Próximas Funcionalidades
 

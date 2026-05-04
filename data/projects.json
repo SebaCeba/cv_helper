@@ -69,6 +69,88 @@
       ],
       "technologies": ["SAP", "BigQuery", "OneStream"],
       "year": "2022-2024"
+    },
+    {
+      "id": "project_006",
+      "name": "OneStream Comercial – OTB & Forecast",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Digitalización del proceso de Open To Buy (OTB) e integración con forecast financiero en OneStream",
+      "achievements": [
+        "Levantamiento y validación de procesos AS IS / TO BE con Planning Comercial, Supply y Finanzas",
+        "Coordinación de licitación, proveedores y diseño funcional (FDD)",
+        "Gestión de UAT, Go-Live y Hypercare con proveedor Perficient"
+      ],
+      "technologies": ["OneStream", "SAP"],
+      "year": "2023-2024"
+    },
+    {
+      "id": "project_007",
+      "name": "Sensible Machine Learning (SML) – Forecast 18 meses",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Implementación y operación del caso de uso UC2 – Forecast 18 meses mediante SML en OneStream",
+      "achievements": [
+        "Definición de gobernanza de modelos, inputs de eventos y responsabilidades de data",
+        "Documentación funcional y manuales de uso para equipos locales",
+        "Alineación de responsabilidades Finance–Data para operación del modelo"
+      ],
+      "technologies": ["OneStream", "SML"],
+      "year": "2024"
+    },
+    {
+      "id": "project_008",
+      "name": "E2E Forecast – Rediseño de proceso",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Diseño de arquitectura E2E de forecast integrando POS, eventos, modelos predictivos y planificación comercial",
+      "achievements": [
+        "Diseño de flujo E2E integrando inputs de POS, eventos y modelos predictivos",
+        "Alineación de frecuencias (diaria, semanal, mensual) y outputs para distintos stakeholders",
+        "Validación del proceso con equipos de Finanzas, Comercial y Supply"
+      ],
+      "technologies": ["OneStream", "Power BI", "Excel Avanzado"],
+      "year": "2024"
+    },
+    {
+      "id": "project_009",
+      "name": "Diseño funcional de solución digital de compliance",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Definición funcional y estructuración de una solución digital orientada a gestión documental, cumplimiento y trazabilidad operativa",
+      "achievements": [
+        "Definición de lógica funcional, entidades y relaciones del sistema",
+        "Consolidación de módulos para simplificar experiencia de usuario",
+        "Coordinación técnico-funcional para desarrollo iterativo"
+      ],
+      "technologies": ["Diseño funcional", "Arquitectura de soluciones", "Producto digital"],
+      "year": ""
+    },
+    {
+      "id": "project_010",
+      "name": "Digitalización proceso de planificación de Ingresos",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Digitalización del proceso de planificación de ingresos e integración con forecast financiero",
+      "achievements": [
+        "Liderazgo de gestión de proveedor y dirección técnico-funcional de la solución",
+        "Integración del proceso de planificación de ingresos con forecast financiero"
+      ],
+      "technologies": ["OneStream", "SAP"],
+      "year": "2024-2026"
+    },
+    {
+      "id": "project_011",
+      "name": "Implementación de modelos predictivos con machine learning",
+      "role_id": "role_001",
+      "company": "Walmart Chile",
+      "description": "Implementación de modelos predictivos con machine learning en procesos de negocio",
+      "achievements": [
+        "Coordinación entre equipos técnicos y de negocio para implementación de modelos",
+        "Habilitación de capacidad predictiva en procesos de planificación"
+      ],
+      "technologies": ["SML", "WML", "OneStream"],
+      "year": "2025"
     }
   ]
 }

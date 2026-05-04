@@ -3,57 +3,81 @@
     {
       "id": "achievement_001",
       "category": "Leadership",
-      "title": "Liderazgo de transformación de plataformas críticas",
-      "description": "Dirección exitosa de la evolución de plataformas financieras críticas con impacto transversal en toda la organización",
-      "impact": "Alto impacto en áreas comerciales y corporativas",
+      "title": "Liderazgo de evolución de plataformas financieras críticas",
+      "description": "Dirección de la evolución de plataformas financieras con impacto transversal en áreas comerciales y corporativas",
+      "impact": "Cobertura transversal de Finanzas, Comercial y Corporativo en organización de gran escala",
       "role_id": "role_001"
     },
     {
       "id": "achievement_002",
       "category": "Implementation",
-      "title": "Implementación de OneStream",
-      "description": "Liderazgo completo del proceso de selección, licitación, implementación y estabilización de plataforma OneStream",
-      "impact": "Nueva plataforma core de consolidación financiera",
+      "title": "Implementación end-to-end de OneStream",
+      "description": "Liderazgo completo desde licitación, selección, implementación, hypercare y estabilización post go-live de OneStream",
+      "impact": "Plataforma core de consolidación y planificación financiera operativa en producción",
       "role_id": "role_001"
     },
     {
       "id": "achievement_003",
-      "category": "Innovation",
-      "title": "Automatización e IA aplicada",
-      "description": "Implementación de capacidades de automatización e inteligencia artificial en procesos financieros",
-      "impact": "Mejora significativa en eficiencia analítica y reducción de tiempos de cierre",
+      "category": "Time Reduction",
+      "title": "Reducción de tiempos de cierre financiero",
+      "description": "Implementación de automatización e IA aplicada para optimizar el proceso de cierre financiero",
+      "impact": "Reducción de tiempos de cierre y mejora de eficiencia analítica en proceso mensual",
       "role_id": "role_001"
     },
     {
       "id": "achievement_004",
       "category": "Modernization",
       "title": "Modernización de reporting con Power BI",
-      "description": "Transformación completa de capacidades de reporting y analítica",
-      "impact": "Mejora en tiempos de análisis y calidad de información",
+      "description": "Sustitución de reportes manuales por dashboards interactivos en Power BI",
+      "impact": "Reducción de manualidad en reportes periódicos y mejora en velocidad de análisis",
       "role_id": "role_002"
     },
     {
       "id": "achievement_005",
       "category": "Standardization",
-      "title": "Rediseño de estructuras P&L corporativo",
-      "description": "Estandarización de estructuras financieras integrando sistemas regionales",
-      "impact": "Mejora en procesos de consolidación y reporting corporativo",
+      "title": "Estandarización de P&L corporativo multi-región",
+      "description": "Rediseño de estructuras de P&L corporativo integrando sistemas financieros regionales",
+      "impact": "Estructura unificada para reporte regional e internacional, eliminando inconsistencias previas",
       "role_id": "role_002"
     },
     {
       "id": "achievement_006",
       "category": "Governance",
-      "title": "Gobierno de arquitecturas de integración",
-      "description": "Establecimiento de gobierno entre SAP, plataformas de datos y soluciones enterprise",
-      "impact": "Estabilidad operativa y continuidad de servicios críticos",
+      "title": "Gobierno de integración entre plataformas enterprise",
+      "description": "Establecimiento de estándares de integración entre SAP, OneStream, BigQuery y plataformas de datos",
+      "impact": "Estabilidad operativa sostenida y continuidad de servicios críticos de negocio",
       "role_id": "role_001"
     },
     {
       "id": "achievement_007",
-      "category": "Change Management",
-      "title": "Adopción tecnológica organizacional",
-      "description": "Liderazgo de iniciativas de gestión del cambio para adopción efectiva de plataformas",
-      "impact": "Uso efectivo de plataformas por usuarios de negocio",
+      "category": "Adoption",
+      "title": "Adopción de plataformas por equipos de negocio",
+      "description": "Diseño y ejecución de iniciativas de gestión del cambio para adopción de plataformas por usuarios finales",
+      "impact": "Equipos de Finanzas, Comercial y FP&A operando en nuevas plataformas sin dependencia de TI",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_008",
+      "category": "Implementation",
+      "title": "Digitalización del proceso OTB & Forecast Comercial",
+      "description": "Levantamiento AS IS / TO BE y coordinación de implementación del proceso OTB en OneStream con proveedor Perficient",
+      "impact": "Proceso de Open To Buy digitalizado e integrado al forecast financiero",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_009",
+      "category": "Innovation",
+      "title": "Implementación de modelo predictivo SML – Forecast 18 meses",
+      "description": "Puesta en operación del caso de uso UC2 de Sensible Machine Learning para forecast de largo plazo en OneStream",
+      "impact": "Capacidad predictiva de 18 meses disponible para equipos de planificación financiera y comercial",
+      "role_id": "role_001"
+    },
+    {
+      "id": "achievement_010",
+      "category": "Data Governance",
+      "title": "Gobierno de datos Finance–Data",
+      "description": "Definición de KPIs, responsabilidades de data y alineación formal entre áreas de Finanzas y Data",
+      "impact": "Claridad en ownership de datos y procesos analíticos para equipos financieros",
       "role_id": "role_001"
     }
   ]
